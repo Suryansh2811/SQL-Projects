@@ -1,0 +1,1 @@
+select ((select count(*) from photos) / (select count(*) from users)) as average_posts_per_user;
